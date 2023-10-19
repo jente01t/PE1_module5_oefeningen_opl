@@ -15,7 +15,8 @@ if (getal > 0) {
 function factorial (getal) {
     for (let i = 1; i <= getal; i++) {
         uitkomst = uitkomst * i
-    } console.log(uitkomst);
+    } 
+    console.log(uitkomst);
     return uitkomst;
 }
 
