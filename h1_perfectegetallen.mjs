@@ -2,8 +2,6 @@ import * as readline from 'node:readline/promises';
 import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
 
-let som = 0;
-let getal = 1;
 
 perfecteGetallen (1, 100);
 
