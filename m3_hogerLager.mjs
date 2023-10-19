@@ -16,14 +16,16 @@ function random(min, max) {
 for (let i = 1; i <= 3; i++) {
     let getal = parseFloat(await userInput.question('Geef een getal: '));
     if (randomGetal < getal) {
-        console.log('Het getal is groter dan het random getal');
+        console.log('U getal is groter dan het random getal');
     } else if (randomGetal > getal){
-        console.log('Het getal is kleiner dan het random getal');
+        console.log('U getal is kleiner dan het random getal');
     } else {
         console.log('Dat is correct');
+        break;
     }
 }
 
+console.log('Het juiste getal was ' + randomGetal + '.')
 
 process.exit();
 
