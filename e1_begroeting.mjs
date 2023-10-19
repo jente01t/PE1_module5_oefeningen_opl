@@ -6,7 +6,6 @@ let naam = await userInput.question('Wat is je naam? ');
 
 function userBegroeting (naam) {
     console.log('Hallo ' + naam + '!')
-    return naam;
 }
 
 userBegroeting(naam);
