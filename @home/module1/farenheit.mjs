@@ -10,3 +10,5 @@ function farenheit (celcius) {
 }
 
 console.log(celcius + " graden Celcius is " + farenheit(celcius) + " graden Farenheit.");
+
+process.exit();
