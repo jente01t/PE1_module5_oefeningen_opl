@@ -14,10 +14,18 @@ function random(min, max) {
     return randomGetal;
 }
 
-if (randomGetal < getal) {
-    console.log('Het getal is groter dan het random getal');
-} else {
-    console.log('Het getal is kleiner dan het random getal');
+while (randomGetal != getal) {
+    if (randomGetal < getal) {
+        console.log('Het getal is groter dan het random getal');
+    } else {
+        console.log('Het getal is kleiner dan het random getal');
+    }
+    getal = parseFloat(await userInput.question('Geef een getal: '));
 }
 
+console.log('Dat is correct');
+
+
+
 process.exit();
+
